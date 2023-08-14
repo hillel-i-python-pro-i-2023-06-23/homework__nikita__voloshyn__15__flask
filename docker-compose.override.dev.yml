@@ -5,8 +5,9 @@ services:
   app:
     user: "1000"
     ports:
-      - "48000:5000"
+      - "48000:45000"
     volumes:
       - ./db:/wd/db:rw
     command:
       - --host=0.0.0.0
+      - --port=45000

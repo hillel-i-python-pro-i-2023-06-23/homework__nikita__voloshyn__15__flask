@@ -162,8 +162,8 @@ cython_debug/
 phones.db
 
 
-app/input_files/*
-!app/input_files/.gitkeep
+application/input_files/*
+!application/input_files/.gitkeep
 files_output/*
 !files_output/.gitkeep
 
